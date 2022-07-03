@@ -1,0 +1,62 @@
+.carousel-inner > .carousel-item > img{
+    width: 300px;
+    height: 300px;
+}
+
+img {
+    width: 200px;
+    height: 184px;
+    justify-content: center;
+    border-radius: 1rem 1rem 0 0;
+    /* height: auto; */
+}
+
+.card {
+    margin-top: 80px;
+}
+
+.card-body {
+    padding: 8px;
+    background-color: rgba(232, 247, 251, 35);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.card {
+    background-color: #f3f3f3;
+    border-radius: 1rem;
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 240px; */
+    flex: 1 0 240px;
+    max-width: 240px;
+}
+
+.card-image {
+    background: url("../img/유정은.jpg");
+    background-size: cover;
+    height: 0;
+    padding-bottom: 66.66666667%; /* 사진의 비율을 240x160에 맞추자 */
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card-description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 8px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;  /* 날짜 | 식 가운데 정렬 */
+    column-gap: 8px;
+}
+
+.card-price {
+    text-align: center;
+}
