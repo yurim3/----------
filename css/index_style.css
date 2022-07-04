@@ -131,3 +131,19 @@ ul {
 ul.left-nav-list {
     width: 130px;
 }
+
+.card-content-box {
+    margin: 3% 3% 0 3%;
+}
+
+.card-content-box2 {
+    margin: 0 3% 3% 3%;
+}
+
+.card-content-box, .card-content-box2 {
+    background-color: rgba(189, 232, 242, 35%);
+}
+
+.content-box {
+    margin: 5%;
+}
