@@ -1,0 +1,58 @@
+/* nav */
+header {
+    width: 500px;
+    position: fixed;
+    top: 0;
+}
+
+ul#nav-list {
+    display: flex; /* 기본값: 수평 방향 */
+    column-gap: 1.875rem; /*25px*/
+    width: 550px;
+    padding: 0;
+    line-height: 35px;
+    margin: auto 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none; /* list 점 없애기 */
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    color: #008156;
+    font-size: medium;
+    margin: 3px;
+}
+
+.div-container {
+    position: fixed;
+    left: 34%;
+}
+
+.div-colorbox {
+    width: 500px;
+    height: 30px;
+    background-color: rgba(189, 232, 242, 35%);
+    border: 1px solid black;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.div-menubox {
+    width: 500px;
+    height: 60px;
+    background-color: #f3f3f3;
+    border: 1px solid black;
+    border-radius: 0 0 1rem 1rem;
+}
