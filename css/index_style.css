@@ -1,4 +1,4 @@
-@media all and (max-width:767px) {
+@media screen and (max-width:767px) {
     header {
         width: 500px;
         position: fixed;
@@ -57,7 +57,7 @@
     .div-menubox {
         width: 500px;
         height: 60px;
-        background-color: #f3f3f3;
+        background-color: #ffffff;
         border: 1px solid black;
         border-radius: 0 0 1rem 1rem;
     }
@@ -209,7 +209,7 @@
 
 
 
-@media screen and (min-width:768px)and (max-width:1024px){
+@media screen and (min-width:768px)and (max-width:1023px){
     header {
         width: 500px;
         position: fixed;
@@ -268,7 +268,7 @@
     .div-menubox {
         width: 500px;
         height: 60px;
-        background-color: #f3f3f3;
+        background-color: #ffffff;
         border: 1px solid black;
         border-radius: 0 0 1rem 1rem;
     }
@@ -445,6 +445,9 @@
         margin-top: 2%;
     }
     
+    div.profile-box {
+        margin-top: 5%;
+    }
     div.name-tag{
         margin-left: 33%;
         width: 100%;
@@ -483,7 +486,7 @@
     .div-menubox {
         width: 500px;
         height: 60px;
-        background-color: #f3f3f3;
+        background-color: #ffffff;
         border: 1px solid black;
         border-radius: 0 0 1rem 1rem;
     }
@@ -614,11 +617,16 @@
         height: 40px;
         border-radius: 20px;
         margin-left: 5px;
+        margin-top: ;
         background-color: #00815626;
         border: none;
     }
     div.item-card-box{
         display: flex;
+    }
+
+    .card-content-box:nth-child(1){
+        margin-left: 50px;
     }
 }
 
